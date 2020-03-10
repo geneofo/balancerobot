@@ -6,13 +6,12 @@
  */ 
 
 #include <avr/io.h>
-
+#include "kalman_filter.h"
+#include "motorcontrol.h"
 
 int main(void)
 {
-    /* Replace with your application code */
-    while (1) 
-    {
-    }
+	//Initialise the filter average the first two readings.
+	
 }
 
